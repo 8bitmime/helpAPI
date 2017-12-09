@@ -1,0 +1,240 @@
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:273) [Here are the stack configuration properties 
+{gov.nist.javax.sip.TRACE_LEVEL=32, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, javax.sip.IP_ADDRESS=130.215.14.113, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:276) [ ]]>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:277) [</debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:278) [<description
+ logDescription="TextClient"
+ name="130.215.14.113" />
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:284) [<debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:285) [<![CDATA[ ]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:666) [createListeningPoint : address = 130.215.14.113 port = 1080 transport = tcp]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:703) [Created Message Processor: 130.215.14.113 port = 1080 transport = tcp]
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:179) [setListeningPointgov.nist.javax.sip.stack.TCPMessageProcessor@5e21b687 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@73e81401]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:666) [createListeningPoint : address = 130.215.14.113 port = 1080 transport = udp]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:703) [Created Message Processor: 130.215.14.113 port = 1080 transport = udp]
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:179) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@22797f15 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@6b61f3c1]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:734) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@73e81401]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:203) [add SipListener messenger.SipLayer@785d45d0]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:734) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@6b61f3c1]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:203) [add SipListener messenger.SipLayer@785d45d0]
+DEBUG - gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:234) [Used request-URI for nextHop = 127.0.0.1:6000/udp]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:198) [Creating message channel 127.0.0.1/6000]
+DEBUG - gov.nist.core.LogWriter.logStackTrace(LogWriter.java:121) [[UDPMessageChannel.java:575][SipProviderImpl.java:673][SipLayer.java:124][MessengerController.java:78][NativeMethodAccessorImpl.java:-2][NativeMethodAccessorImpl.java:62][DelegatingMethodAccessorImpl.java:43][Method.java:498][MethodUtil.java:71][null:-1][DelegatingMethodAccessorImpl.java:43][Method.java:498][MethodUtil.java:275][FXMLLoader.java:1771][FXMLLoader.java:1657][CompositeEventHandler.java:86][EventHandlerManager.java:238][EventHandlerManager.java:191][CompositeEventDispatcher.java:59][BasicEventDispatcher.java:58][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][EventUtil.java:74][EventUtil.java:49][Event.java:198][Node.java:8413][Button.java:185][ButtonBehavior.java:182][BehaviorSkinBase.java:96][BehaviorSkinBase.java:89][CompositeEventHandler.java:218][CompositeEventHandler.java:80][EventHandlerManager.java:238][EventHandlerManager.java:191][CompositeEventDispatcher.java:59][BasicEventDispatcher.java:58][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][EventUtil.java:74][EventUtil.java:54][Event.java:198][Scene.java:3757][Scene.java:3485][Scene.java:1762][Scene.java:2494][GlassViewEventHandler.java:381][GlassViewEventHandler.java:295][AccessController.java:-2][GlassViewEventHandler.java:417][QuantumToolkit.java:389][GlassViewEventHandler.java:416][View.java:555][View.java:937]]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:677) [gov.nist.javax.sip.stack.UDPMessageChannel:sendMessage 127.0.0.1/6000
+MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: 4997dc1eed658786167918e71cd5ca82@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+test]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:680) [*******************
+]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:697) [sendMessage 127.0.0.1/6000
+MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: 4997dc1eed658786167918e71cd5ca82@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+test]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:336) [ ]]>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:337) [</debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:338) [<message
+from="130.215.14.113:1080" 
+to="127.0.0.1:6000" 
+time="1512514067261"
+isSender="true" 
+transactionId="textclientv1.0:4997dc1eed658786167918e71cd5ca82@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="4997dc1eed658786167918e71cd5ca82@130.215.14.113" 
+firstLine="MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: 4997dc1eed658786167918e71cd5ca82@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+]]>
+</message>
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:339) [<debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:340) [<![CDATA[ ]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.sendRequest(SipProviderImpl.java:691) [done sending MESSAGE to hop 127.0.0.1:6000/udp]
+DEBUG - gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:234) [Used request-URI for nextHop = 127.0.0.1:6000/udp]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:198) [Creating message channel 127.0.0.1/6000]
+DEBUG - gov.nist.core.LogWriter.logStackTrace(LogWriter.java:121) [[UDPMessageChannel.java:575][SipProviderImpl.java:673][SipLayer.java:124][MessengerController.java:78][NativeMethodAccessorImpl.java:-2][NativeMethodAccessorImpl.java:62][DelegatingMethodAccessorImpl.java:43][Method.java:498][MethodUtil.java:71][null:-1][DelegatingMethodAccessorImpl.java:43][Method.java:498][MethodUtil.java:275][FXMLLoader.java:1771][FXMLLoader.java:1657][CompositeEventHandler.java:86][EventHandlerManager.java:238][EventHandlerManager.java:191][CompositeEventDispatcher.java:59][BasicEventDispatcher.java:58][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][EventUtil.java:74][EventUtil.java:49][Event.java:198][Node.java:8413][Button.java:185][ButtonBehavior.java:182][BehaviorSkinBase.java:96][BehaviorSkinBase.java:89][CompositeEventHandler.java:218][CompositeEventHandler.java:80][EventHandlerManager.java:238][EventHandlerManager.java:191][CompositeEventDispatcher.java:59][BasicEventDispatcher.java:58][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][EventUtil.java:74][EventUtil.java:54][Event.java:198][Scene.java:3757][Scene.java:3485][Scene.java:1762][Scene.java:2494][GlassViewEventHandler.java:381][GlassViewEventHandler.java:295][AccessController.java:-2][GlassViewEventHandler.java:417][QuantumToolkit.java:389][GlassViewEventHandler.java:416][View.java:555][View.java:937]]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:677) [gov.nist.javax.sip.stack.UDPMessageChannel:sendMessage 127.0.0.1/6000
+MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: 00672f9a4d9a27c66b4738cc10803fae@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 8
+
+dickbutt]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:680) [*******************
+]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:697) [sendMessage 127.0.0.1/6000
+MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: 00672f9a4d9a27c66b4738cc10803fae@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 8
+
+dickbutt]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:336) [ ]]>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:337) [</debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:338) [<message
+from="130.215.14.113:1080" 
+to="127.0.0.1:6000" 
+time="1512514072107"
+isSender="true" 
+transactionId="textclientv1.0:00672f9a4d9a27c66b4738cc10803fae@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="00672f9a4d9a27c66b4738cc10803fae@130.215.14.113" 
+firstLine="MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: 00672f9a4d9a27c66b4738cc10803fae@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 8
+
+]]>
+</message>
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:339) [<debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:340) [<![CDATA[ ]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.sendRequest(SipProviderImpl.java:691) [done sending MESSAGE to hop 127.0.0.1:6000/udp]
+DEBUG - gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:234) [Used request-URI for nextHop = 127.0.0.1:6000/udp]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:198) [Creating message channel 127.0.0.1/6000]
+DEBUG - gov.nist.core.LogWriter.logStackTrace(LogWriter.java:121) [[UDPMessageChannel.java:575][SipProviderImpl.java:673][SipLayer.java:124][MessengerController.java:78][NativeMethodAccessorImpl.java:-2][NativeMethodAccessorImpl.java:62][DelegatingMethodAccessorImpl.java:43][Method.java:498][MethodUtil.java:71][null:-1][DelegatingMethodAccessorImpl.java:43][Method.java:498][MethodUtil.java:275][FXMLLoader.java:1771][FXMLLoader.java:1657][CompositeEventHandler.java:86][EventHandlerManager.java:238][EventHandlerManager.java:191][CompositeEventDispatcher.java:59][BasicEventDispatcher.java:58][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][EventUtil.java:74][EventUtil.java:49][Event.java:198][Node.java:8413][Button.java:185][ButtonBehavior.java:182][BehaviorSkinBase.java:96][BehaviorSkinBase.java:89][CompositeEventHandler.java:218][CompositeEventHandler.java:80][EventHandlerManager.java:238][EventHandlerManager.java:191][CompositeEventDispatcher.java:59][BasicEventDispatcher.java:58][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][BasicEventDispatcher.java:56][EventDispatchChainImpl.java:114][EventUtil.java:74][EventUtil.java:54][Event.java:198][Scene.java:3757][Scene.java:3485][Scene.java:1762][Scene.java:2494][GlassViewEventHandler.java:381][GlassViewEventHandler.java:295][AccessController.java:-2][GlassViewEventHandler.java:417][QuantumToolkit.java:389][GlassViewEventHandler.java:416][View.java:555][View.java:937]]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:677) [gov.nist.javax.sip.stack.UDPMessageChannel:sendMessage 127.0.0.1/6000
+MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: d6e3eac362812249ebe5ac7ea2911105@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+fuck]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:680) [*******************
+]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:697) [sendMessage 127.0.0.1/6000
+MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: d6e3eac362812249ebe5ac7ea2911105@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+fuck]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:336) [ ]]>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:337) [</debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:338) [<message
+from="130.215.14.113:1080" 
+to="127.0.0.1:6000" 
+time="1512514084527"
+isSender="true" 
+transactionId="textclientv1.0:d6e3eac362812249ebe5ac7ea2911105@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="d6e3eac362812249ebe5ac7ea2911105@130.215.14.113" 
+firstLine="MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: d6e3eac362812249ebe5ac7ea2911105@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+]]>
+</message>
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:339) [<debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.logMessage(ServerLog.java:340) [<![CDATA[ ]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.sendRequest(SipProviderImpl.java:691) [done sending MESSAGE to hop 127.0.0.1:6000/udp]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:273) [Here are the stack configuration properties 
+{gov.nist.javax.sip.TRACE_LEVEL=32, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, javax.sip.IP_ADDRESS=130.215.14.113, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:276) [ ]]>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:277) [</debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:278) [<description
+ logDescription="TextClient"
+ name="130.215.14.113" />
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:284) [<debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:285) [<![CDATA[ ]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:666) [createListeningPoint : address = 130.215.14.113 port = 6000 transport = tcp]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:703) [Created Message Processor: 130.215.14.113 port = 6000 transport = tcp]
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:179) [setListeningPointgov.nist.javax.sip.stack.TCPMessageProcessor@7784f4b1 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@6784c619]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:666) [createListeningPoint : address = 130.215.14.113 port = 6000 transport = udp]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:703) [Created Message Processor: 130.215.14.113 port = 6000 transport = udp]
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:179) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@368f5037 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@1863df06]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:734) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@6784c619]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:203) [add SipListener messenger.SipLayer@495c27fd]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:734) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@1863df06]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:203) [add SipListener messenger.SipLayer@495c27fd]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:273) [Here are the stack configuration properties 
+{gov.nist.javax.sip.TRACE_LEVEL=32, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, javax.sip.IP_ADDRESS=130.215.14.113, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:276) [ ]]>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:277) [</debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:278) [<description
+ logDescription="TextClient"
+ name="130.215.14.113" />
+]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:284) [<debug>]
+DEBUG - gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:285) [<![CDATA[ ]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:666) [createListeningPoint : address = 130.215.14.113 port = 6000 transport = tcp]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:703) [Created Message Processor: 130.215.14.113 port = 6000 transport = tcp]
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:179) [setListeningPointgov.nist.javax.sip.stack.TCPMessageProcessor@7a5844a5 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@1723cf87]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:666) [createListeningPoint : address = 130.215.14.113 port = 6000 transport = udp]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:703) [Created Message Processor: 130.215.14.113 port = 6000 transport = udp]
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:179) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@4545771d listeningPoint = gov.nist.javax.sip.ListeningPointImpl@148fa57c]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:734) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@1723cf87]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:203) [add SipListener messenger.SipLayer@a97f12]
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:734) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@148fa57c]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:203) [add SipListener messenger.SipLayer@a97f12]

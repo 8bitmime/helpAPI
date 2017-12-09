@@ -1,0 +1,272 @@
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="130.215.14.113:6969" 
+to="130.215.213.204:3000" 
+time="1512445907962"
+isSender="true" 
+transactionId="textclientv1.0:93f5274fa6aef0d76b1d703d05abb883@130.215.14.113:1:message:130.215.14.113:6969" 
+callId="93f5274fa6aef0d76b1d703d05abb883@130.215.14.113" 
+firstLine="MESSAGE sip:gyroth@130.215.213.204:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:gyroth@130.215.213.204:3000;transport=udp SIP/2.0
+Call-ID: 93f5274fa6aef0d76b1d703d05abb883@130.215.14.113
+CSeq: 1 MESSAGE
+From: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=textclientv1.0
+To: "gyroth" <sip:gyroth@130.215.213.204:3000>
+Via: SIP/2.0/UDP 130.215.14.113:6969;branch=branch1
+Max-Forwards: 70
+Contact: "bmat2z" <sip:bmat2z@130.215.14.113:6969>
+Content-Type: text/plain
+Content-Length: 13
+
+]]>
+</message>
+
+<message
+from="130.215.213.204:3000" 
+to="130.215.14.113:6969" 
+time="1512445908443"
+isSender="false" 
+transactionId="textclientv1.0:93f5274fa6aef0d76b1d703d05abb883@130.215.14.113:1:message:130.215.14.113:6969" 
+callId="93f5274fa6aef0d76b1d703d05abb883@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 93f5274fa6aef0d76b1d703d05abb883@130.215.14.113
+CSeq: 1 MESSAGE
+From: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=textclientv1.0
+To: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:6969;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.213.204:3000" 
+to="130.215.14.113:6969" 
+time="1512445911778"
+isSender="false" 
+transactionId="textclientv1.0:fe8740ef267b0542961430a662ed145e@130.215.213.204:1:message:130.215.213.204:3000" 
+callId="fe8740ef267b0542961430a662ed145e@130.215.213.204" 
+firstLine="MESSAGE sip:bmat2z@130.215.14.113:6969;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:bmat2z@130.215.14.113:6969;transport=udp SIP/2.0
+Call-ID: fe8740ef267b0542961430a662ed145e@130.215.213.204
+CSeq: 1 MESSAGE
+From: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=textclientv1.0
+To: "bmat2z" <sip:bmat2z@130.215.14.113:6969>
+Via: SIP/2.0/UDP 130.215.213.204:3000;branch=branch1
+Max-Forwards: 70
+Contact: "gyroth" <sip:gyroth@130.215.213.204:3000>
+Content-Type: text/plain
+Content-Length: 3
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:6969" 
+to="130.215.213.204:3000" 
+time="1512445911799"
+isSender="true" 
+transactionId="textclientv1.0:fe8740ef267b0542961430a662ed145e@130.215.213.204:1:message:130.215.213.204:3000" 
+callId="fe8740ef267b0542961430a662ed145e@130.215.213.204" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: fe8740ef267b0542961430a662ed145e@130.215.213.204
+CSeq: 1 MESSAGE
+From: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=textclientv1.0
+To: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=888
+Via: SIP/2.0/UDP 130.215.213.204:3000;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:6969" 
+to="130.215.213.204:3000" 
+time="1512445941391"
+isSender="true" 
+transactionId="textclientv1.0:e17773cc3c011ffdcff4b6e9243c276f@130.215.14.113:1:message:130.215.14.113:6969" 
+callId="e17773cc3c011ffdcff4b6e9243c276f@130.215.14.113" 
+firstLine="MESSAGE sip:gyroth@130.215.213.204:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:gyroth@130.215.213.204:3000;transport=udp SIP/2.0
+Call-ID: e17773cc3c011ffdcff4b6e9243c276f@130.215.14.113
+CSeq: 1 MESSAGE
+From: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=textclientv1.0
+To: "gyroth" <sip:gyroth@130.215.213.204:3000>
+Via: SIP/2.0/UDP 130.215.14.113:6969;branch=branch1
+Max-Forwards: 70
+Contact: "bmat2z" <sip:bmat2z@130.215.14.113:6969>
+Content-Type: text/plain
+Content-Length: 9
+
+]]>
+</message>
+
+<message
+from="130.215.213.204:3000" 
+to="130.215.14.113:6969" 
+time="1512445941513"
+isSender="false" 
+transactionId="textclientv1.0:e17773cc3c011ffdcff4b6e9243c276f@130.215.14.113:1:message:130.215.14.113:6969" 
+callId="e17773cc3c011ffdcff4b6e9243c276f@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: e17773cc3c011ffdcff4b6e9243c276f@130.215.14.113
+CSeq: 1 MESSAGE
+From: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=textclientv1.0
+To: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:6969;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.213.204:3000" 
+to="130.215.14.113:6969" 
+time="1512445953760"
+isSender="false" 
+transactionId="textclientv1.0:2228da08ad433a2334640a7b2800fb14@130.215.213.204:1:message:130.215.213.204:3000" 
+callId="2228da08ad433a2334640a7b2800fb14@130.215.213.204" 
+firstLine="MESSAGE sip:bmat2z@130.215.14.113:6969;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:bmat2z@130.215.14.113:6969;transport=udp SIP/2.0
+Call-ID: 2228da08ad433a2334640a7b2800fb14@130.215.213.204
+CSeq: 1 MESSAGE
+From: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=textclientv1.0
+To: "bmat2z" <sip:bmat2z@130.215.14.113:6969>
+Via: SIP/2.0/UDP 130.215.213.204:3000;branch=branch1
+Max-Forwards: 70
+Contact: "gyroth" <sip:gyroth@130.215.213.204:3000>
+Content-Type: text/plain
+Content-Length: 4
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:6969" 
+to="130.215.213.204:3000" 
+time="1512445953773"
+isSender="true" 
+transactionId="textclientv1.0:2228da08ad433a2334640a7b2800fb14@130.215.213.204:1:message:130.215.213.204:3000" 
+callId="2228da08ad433a2334640a7b2800fb14@130.215.213.204" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 2228da08ad433a2334640a7b2800fb14@130.215.213.204
+CSeq: 1 MESSAGE
+From: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=textclientv1.0
+To: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=888
+Via: SIP/2.0/UDP 130.215.213.204:3000;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:6969" 
+to="130.215.213.204:3000" 
+time="1512445960218"
+isSender="true" 
+transactionId="textclientv1.0:bef4994592b8d2bec785da137a6cfa5a@130.215.14.113:1:message:130.215.14.113:6969" 
+callId="bef4994592b8d2bec785da137a6cfa5a@130.215.14.113" 
+firstLine="MESSAGE sip:gyroth@130.215.213.204:3000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:gyroth@130.215.213.204:3000;transport=udp SIP/2.0
+Call-ID: bef4994592b8d2bec785da137a6cfa5a@130.215.14.113
+CSeq: 1 MESSAGE
+From: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=textclientv1.0
+To: "gyroth" <sip:gyroth@130.215.213.204:3000>
+Via: SIP/2.0/UDP 130.215.14.113:6969;branch=branch1
+Max-Forwards: 70
+Contact: "bmat2z" <sip:bmat2z@130.215.14.113:6969>
+Content-Type: text/plain
+Content-Length: 11
+
+]]>
+</message>
+
+<message
+from="130.215.213.204:3000" 
+to="130.215.14.113:6969" 
+time="1512445960254"
+isSender="false" 
+transactionId="textclientv1.0:bef4994592b8d2bec785da137a6cfa5a@130.215.14.113:1:message:130.215.14.113:6969" 
+callId="bef4994592b8d2bec785da137a6cfa5a@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: bef4994592b8d2bec785da137a6cfa5a@130.215.14.113
+CSeq: 1 MESSAGE
+From: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=textclientv1.0
+To: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:6969;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.213.204:3000" 
+to="130.215.14.113:6969" 
+time="1512446261292"
+isSender="false" 
+transactionId="textclientv1.0:cd2c20d28440f3fb169d951bee77a7c2@130.215.213.204:1:message:130.215.213.204:3000" 
+callId="cd2c20d28440f3fb169d951bee77a7c2@130.215.213.204" 
+firstLine="MESSAGE sip:bmat2z@130.215.14.113:6969;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:bmat2z@130.215.14.113:6969;transport=udp SIP/2.0
+Call-ID: cd2c20d28440f3fb169d951bee77a7c2@130.215.213.204
+CSeq: 1 MESSAGE
+From: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=textclientv1.0
+To: "bmat2z" <sip:bmat2z@130.215.14.113:6969>
+Via: SIP/2.0/UDP 130.215.213.204:3000;branch=branch1
+Max-Forwards: 70
+Contact: "gyroth" <sip:gyroth@130.215.213.204:3000>
+Content-Type: text/plain
+Content-Length: 4
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:6969" 
+to="130.215.213.204:3000" 
+time="1512446261316"
+isSender="true" 
+transactionId="textclientv1.0:cd2c20d28440f3fb169d951bee77a7c2@130.215.213.204:1:message:130.215.213.204:3000" 
+callId="cd2c20d28440f3fb169d951bee77a7c2@130.215.213.204" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: cd2c20d28440f3fb169d951bee77a7c2@130.215.213.204
+CSeq: 1 MESSAGE
+From: "gyroth" <sip:gyroth@130.215.213.204:3000>;tag=textclientv1.0
+To: "bmat2z" <sip:bmat2z@130.215.14.113:6969>;tag=888
+Via: SIP/2.0/UDP 130.215.213.204:3000;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+

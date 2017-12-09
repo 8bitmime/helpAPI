@@ -1,0 +1,90 @@
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="130.215.14.113:1080" 
+to="127.0.0.1:6000" 
+time="1512514067261"
+isSender="true" 
+transactionId="textclientv1.0:4997dc1eed658786167918e71cd5ca82@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="4997dc1eed658786167918e71cd5ca82@130.215.14.113" 
+firstLine="MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: 4997dc1eed658786167918e71cd5ca82@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="127.0.0.1:6000" 
+time="1512514072107"
+isSender="true" 
+transactionId="textclientv1.0:00672f9a4d9a27c66b4738cc10803fae@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="00672f9a4d9a27c66b4738cc10803fae@130.215.14.113" 
+firstLine="MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: 00672f9a4d9a27c66b4738cc10803fae@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 8
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="127.0.0.1:6000" 
+time="1512514084527"
+isSender="true" 
+transactionId="textclientv1.0:d6e3eac362812249ebe5ac7ea2911105@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="d6e3eac362812249ebe5ac7ea2911105@130.215.14.113" 
+firstLine="MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:test@127.0.0.1:6000;transport=udp SIP/2.0
+Call-ID: d6e3eac362812249ebe5ac7ea2911105@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "test" <sip:test@127.0.0.1:6000>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->

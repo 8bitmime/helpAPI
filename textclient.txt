@@ -1,0 +1,586 @@
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512509491037"
+isSender="true" 
+transactionId="textclientv1.0:e886557ed04c592312f9fd06b4fb1f10@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="e886557ed04c592312f9fd06b4fb1f10@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: e886557ed04c592312f9fd06b4fb1f10@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509491529"
+isSender="false" 
+transactionId="textclientv1.0:e886557ed04c592312f9fd06b4fb1f10@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="e886557ed04c592312f9fd06b4fb1f10@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: e886557ed04c592312f9fd06b4fb1f10@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512509506924"
+isSender="true" 
+transactionId="textclientv1.0:8144b9dcefde60c7a0ada68198fec46f@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="8144b9dcefde60c7a0ada68198fec46f@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: 8144b9dcefde60c7a0ada68198fec46f@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 8
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509506974"
+isSender="false" 
+transactionId="textclientv1.0:8144b9dcefde60c7a0ada68198fec46f@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="8144b9dcefde60c7a0ada68198fec46f@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 8144b9dcefde60c7a0ada68198fec46f@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509826337"
+isSender="false" 
+transactionId="textclientv1.0:ef43aec25d5ac737f853798bba2e017a@130.215.215.74:1:message:130.215.215.74:1011" 
+callId="ef43aec25d5ac737f853798bba2e017a@130.215.215.74" 
+firstLine="MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0
+Call-ID: ef43aec25d5ac737f853798bba2e017a@130.215.215.74
+CSeq: 1 MESSAGE
+From: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=textclientv1.0
+To: "Test" <sip:Test@130.215.14.113:1080>
+Via: SIP/2.0/UDP 130.215.215.74:1011;branch=branch1
+Max-Forwards: 70
+Contact: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509828055"
+isSender="false" 
+transactionId="textclientv1.0:d0a06ad144a182e956708ed343e10f01@130.215.215.74:1:message:130.215.215.74:1011" 
+callId="d0a06ad144a182e956708ed343e10f01@130.215.215.74" 
+firstLine="MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0
+Call-ID: d0a06ad144a182e956708ed343e10f01@130.215.215.74
+CSeq: 1 MESSAGE
+From: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=textclientv1.0
+To: "Test" <sip:Test@130.215.14.113:1080>
+Via: SIP/2.0/UDP 130.215.215.74:1011;branch=branch1
+Max-Forwards: 70
+Contact: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512509834267"
+isSender="true" 
+transactionId="textclientv1.0:573dc343692b82257e269da5dab85897@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="573dc343692b82257e269da5dab85897@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: 573dc343692b82257e269da5dab85897@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 4
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509834297"
+isSender="false" 
+transactionId="textclientv1.0:573dc343692b82257e269da5dab85897@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="573dc343692b82257e269da5dab85897@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 573dc343692b82257e269da5dab85897@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512509836900"
+isSender="true" 
+transactionId="textclientv1.0:addc07e27fc2695933f3c7bd420a0545@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="addc07e27fc2695933f3c7bd420a0545@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: addc07e27fc2695933f3c7bd420a0545@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512509841255"
+isSender="true" 
+transactionId="textclientv1.0:75785614677e53635a08ac6a5c4e6a72@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="75785614677e53635a08ac6a5c4e6a72@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: 75785614677e53635a08ac6a5c4e6a72@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512509844196"
+isSender="true" 
+transactionId="textclientv1.0:334a1a24151b53908a7a8953b87a57ca@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="334a1a24151b53908a7a8953b87a57ca@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: 334a1a24151b53908a7a8953b87a57ca@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 3
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509844259"
+isSender="false" 
+transactionId="textclientv1.0:334a1a24151b53908a7a8953b87a57ca@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="334a1a24151b53908a7a8953b87a57ca@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 334a1a24151b53908a7a8953b87a57ca@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509851190"
+isSender="false" 
+transactionId="textclientv1.0:7bc424728a28eebeedfe1a35f1601643@130.215.215.74:1:message:130.215.215.74:1011" 
+callId="7bc424728a28eebeedfe1a35f1601643@130.215.215.74" 
+firstLine="MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0
+Call-ID: 7bc424728a28eebeedfe1a35f1601643@130.215.215.74
+CSeq: 1 MESSAGE
+From: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=textclientv1.0
+To: "Test" <sip:Test@130.215.14.113:1080>
+Via: SIP/2.0/UDP 130.215.215.74:1011;branch=branch1
+Max-Forwards: 70
+Contact: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509916866"
+isSender="false" 
+transactionId="textclientv1.0:68e7ae5e74a909941f636305bdb7896c@130.215.215.74:1:message:130.215.215.74:1011" 
+callId="68e7ae5e74a909941f636305bdb7896c@130.215.215.74" 
+firstLine="MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0
+Call-ID: 68e7ae5e74a909941f636305bdb7896c@130.215.215.74
+CSeq: 1 MESSAGE
+From: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=textclientv1.0
+To: "Test" <sip:Test@130.215.14.113:1080>
+Via: SIP/2.0/UDP 130.215.215.74:1011;branch=branch1
+Max-Forwards: 70
+Contact: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Content-Type: text/plain
+Content-Length: 2
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512509917023"
+isSender="true" 
+transactionId="textclientv1.0:68e7ae5e74a909941f636305bdb7896c@130.215.215.74:1:message:130.215.215.74:1011" 
+callId="68e7ae5e74a909941f636305bdb7896c@130.215.215.74" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 68e7ae5e74a909941f636305bdb7896c@130.215.215.74
+CSeq: 1 MESSAGE
+From: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=textclientv1.0
+To: "Test" <sip:Test@130.215.14.113:1080>;tag=888
+Via: SIP/2.0/UDP 130.215.215.74:1011;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512509929039"
+isSender="true" 
+transactionId="textclientv1.0:3038ca184b46d6336fd4b9e92c83e461@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="3038ca184b46d6336fd4b9e92c83e461@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: 3038ca184b46d6336fd4b9e92c83e461@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 12
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512509929070"
+isSender="false" 
+transactionId="textclientv1.0:3038ca184b46d6336fd4b9e92c83e461@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="3038ca184b46d6336fd4b9e92c83e461@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 3038ca184b46d6336fd4b9e92c83e461@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512510017259"
+isSender="true" 
+transactionId="textclientv1.0:70ac0e61ff1bad442b8b9dc6716e9928@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="70ac0e61ff1bad442b8b9dc6716e9928@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: 70ac0e61ff1bad442b8b9dc6716e9928@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 8
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512510017308"
+isSender="false" 
+transactionId="textclientv1.0:70ac0e61ff1bad442b8b9dc6716e9928@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="70ac0e61ff1bad442b8b9dc6716e9928@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 70ac0e61ff1bad442b8b9dc6716e9928@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512510341997"
+isSender="true" 
+transactionId="textclientv1.0:266eb423266af75114e56b6737d81736@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="266eb423266af75114e56b6737d81736@130.215.14.113" 
+firstLine="MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:pmwws@130.215.215.74:1011;transport=udp SIP/2.0
+Call-ID: 266eb423266af75114e56b6737d81736@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Max-Forwards: 70
+Contact: "TEST" <sip:TEST@130.215.14.113:1080>
+Content-Type: text/plain
+Content-Length: 5
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512510342136"
+isSender="false" 
+transactionId="textclientv1.0:266eb423266af75114e56b6737d81736@130.215.14.113:1:message:130.215.14.113:1080" 
+callId="266eb423266af75114e56b6737d81736@130.215.14.113" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: 266eb423266af75114e56b6737d81736@130.215.14.113
+CSeq: 1 MESSAGE
+From: "TEST" <sip:TEST@130.215.14.113:1080>;tag=textclientv1.0
+To: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=888
+Via: SIP/2.0/UDP 130.215.14.113:1080;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<message
+from="130.215.215.74:1011" 
+to="130.215.14.113:1080" 
+time="1512510358812"
+isSender="false" 
+transactionId="textclientv1.0:e586a3c97cf63e2c473b6c1dd1f251f1@130.215.215.74:1:message:130.215.215.74:1011" 
+callId="e586a3c97cf63e2c473b6c1dd1f251f1@130.215.215.74" 
+firstLine="MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:Test@130.215.14.113:1080;transport=udp SIP/2.0
+Call-ID: e586a3c97cf63e2c473b6c1dd1f251f1@130.215.215.74
+CSeq: 1 MESSAGE
+From: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=textclientv1.0
+To: "Test" <sip:Test@130.215.14.113:1080>
+Via: SIP/2.0/UDP 130.215.215.74:1011;branch=branch1
+Max-Forwards: 70
+Contact: "pmwws" <sip:pmwws@130.215.215.74:1011>
+Content-Type: text/plain
+Content-Length: 8
+
+]]>
+</message>
+
+<message
+from="130.215.14.113:1080" 
+to="130.215.215.74:1011" 
+time="1512510358840"
+isSender="true" 
+transactionId="textclientv1.0:e586a3c97cf63e2c473b6c1dd1f251f1@130.215.215.74:1:message:130.215.215.74:1011" 
+callId="e586a3c97cf63e2c473b6c1dd1f251f1@130.215.215.74" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Call-ID: e586a3c97cf63e2c473b6c1dd1f251f1@130.215.215.74
+CSeq: 1 MESSAGE
+From: "pmwws" <sip:pmwws@130.215.215.74:1011>;tag=textclientv1.0
+To: "Test" <sip:Test@130.215.14.113:1080>;tag=888
+Via: SIP/2.0/UDP 130.215.215.74:1011;branch=branch1
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= 130.215.14.113
+javax.sip.STACK_NAME= TextClient
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
